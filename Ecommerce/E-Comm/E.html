@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website - shopping cart</title>
+    <link rel="stylesheet" href="E.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header>
+       <div class="nav container">
+        <a href="#" class="logo">Ecommerce</a>
+        <i class='bx bx-shopping-bag' id="cart-icon"></i>
+        <div class="cart">
+            <h2 class="cart-title">Your Cart</h2>
+            <div class="cart-content">
+                <div class="cart-box">
+                    <img src="images/product2.jpg" alt="" class="cart-img">
+                   <div class="detail-box">
+                    <div class="cart-product-title">Earbuds</div>
+                    <div class="cart-price">$25</div>
+                    <input type="number" value="1" class="cart-quantity">
+                   </div>
+                   <!--remove-->
+                   <i class='bx bxs-trash-alt cart-remove'></i>
+                </div>
+            </div>
+            <!--total-->
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <!--buy button-->
+            <button type="button" class="btn-buy">Buy Now</button>
+            <!--cart close-->
+            <i class="bx bx-x" id="close-cart"></i>
+
+        </div>
+       </div>
+    </header>
+    <section class="shop container">
+        <div class="section-title">Shop Products</div>
+        <div class="shop-content">
+            <div class="product-box">
+                <img src="images/product1.jpg" alt="" class="product-img">
+                <h4 class="product-title">AEROREADY SHIRT</h4>
+                <span class="price">$25</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="images/product2.jpg" alt="" class="product-img">
+                <h4 class="product-title">WIRELESS EARBUDS</h4>
+                <span class="price">$45</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="images/product3.jpg" alt="" class="product-img">
+                <h4 class="product-title">HOODEDPARKA</h4>
+                <span class="price">$85</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="images/product4.jpg" alt="" class="product-img">
+                <h4 class="product-title">STRAW METALBOTTLE</h4>
+                <span class="price">$46</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="images/product5.jpg" alt="" class="product-img">
+                <h4 class="product-title">SUNGLASSES</h4>
+                <span class="price">$98</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="images/product6.jpg" alt="" class="product-img">
+                <h4 class="product-title">BLACK HAT</h4>
+                <span class="price">$75</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="images/product7.jpg" alt="" class="product-img">
+                <h4 class="product-title">BLACKPACK</h4>
+                <span class="price">$20</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="images/product8.jpg" alt="" class="product-img">
+                <h4 class="product-title">ULTRABOOST</h4>
+                <span class="price">$156</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="https://janasya.com/cdn/shop/files/JNE3938.jpg?v=1688204257" alt="" class="product-img">
+                <h4 class="product-title">BLACK COTTON</h4>
+                <span class="price">$750</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="https://janasya.com/cdn/shop/products/JNE4305-DR_1066x.jpg?v=1691151661" alt="" class="product-img">
+                <h4 class="product-title">GREY COTTON</h4>
+                <span class="price">$770</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="https://janasya.com/cdn/shop/files/JNE3936-DR_1066x.jpg?v=1685965541" alt="" class="product-img">
+                <h4 class="product-title">MARUN COTTON</h4>
+                <span class="price">$790</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="https://janasya.com/cdn/shop/files/JNE3934-DR_2_1370x.jpg?v=1685797884" alt="" class="product-img">
+                <h4 class="product-title">BLUE COTTON</h4>
+                <span class="price">$7770</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="https://janasya.com/cdn/shop/files/JNE3934-DR_2_1370x.jpg?v=1685797884" alt="" class="product-img">
+                <h4 class="product-title">BLUE COTTON</h4>
+                <span class="price">$7770</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="https://janasya.com/cdn/shop/products/SET815-KR-PP_1066x.jpg?v=1695027130" alt="" class="product-img">
+                <h4 class="product-title">BLUE COTTON</h4>
+                <span class="price">$7770</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="https://janasya.com/cdn/shop/files/SET566_efa0e8cc-1bf4-42b3-817d-529394637208_1066x.jpg?v=1689676065" alt="" class="product-img">
+                <h4 class="product-title">BLUE COTTON</h4>
+                <span class="price">$7770</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="https://janasya.com/cdn/shop/products/SET814-LCD_1066x.jpg?v=1695026939" alt="" class="product-img">
+                <h4 class="product-title">BLUE COTTON</h4>
+                <span class="price">$7770</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+    </section>
+    <script src="E.js"></script>
+</body>
+</html>
